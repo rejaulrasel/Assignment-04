@@ -15,6 +15,7 @@ function perfectFriend(friends) {
         return fiveCharacterName;
     }
 
+    //error handling if there is invalid input
     else {
         return 'Please,Enter your all friends name in an array!!';
     }
