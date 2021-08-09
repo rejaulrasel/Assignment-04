@@ -14,7 +14,7 @@ function seerToMon(seer) {
     }
 
     //when the customer order nothing
-    else if(seer == 0){
+    else if (seer == 0) {
         return 'Sorry,you have not ordered anything!!'
     }
 
