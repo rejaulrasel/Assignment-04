@@ -18,7 +18,7 @@ function deliveryCost(tshirtQuantity) {
 
     //if tshirtQuantity is zero
     else if (tshirtQuantity == 0) {
-        return 'Sorry,you have not ordered anything!!'
+        return 'Sorry,you have not ordered anything!!';
     }
 
     //if tshirtQuantity is a float number
@@ -53,6 +53,6 @@ function deliveryCost(tshirtQuantity) {
 }
 // function ENDS
 
-const tshirtQuantity = 201;
+const tshirtQuantity = 000;
 const result = deliveryCost(tshirtQuantity);
 console.log(result);
